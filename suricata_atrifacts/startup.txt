@@ -1,0 +1,26 @@
+Info: win32-service: Running as service: no
+Notice: suricata: This is Suricata version 8.0.1 RELEASE running in SYSTEM mode
+Info: cpu: CPUs/cores online: 12
+Notice: runmodes: thread stack size of 0 too small: setting to 512k
+Info: device: \Device\NPF_{8B60C5C7-B14D-4C4E-BB8E-3A199F9B7144}: shortening device name to \Dev..144}
+Info: suricata: Setting engine mode to IDS mode by default
+Info: exception-policy: master exception-policy set to: auto
+Info: win32-syscall: Found an MTU of 1500 for '\Device\NPF_{8B60C5C7-B14D-4C4E-BB8E-3A199F9B7144}'
+Info: coredump-config: Configuring core dump is not yet supported on Windows.
+Info: logopenfile: fast output device (regular) initialized: fast.log
+Info: logopenfile: eve-log output device (regular) initialized: eve.json
+Info: logopenfile: stats output device (regular) initialized: stats.log
+Error: detect-tcp-flags: pcre match failed
+Error: detect: error parsing signature "alert tcp any any -> any any (msg:"LAB NMAP XMAS SCAN"; flags: FIN,PSH,URG; sid:1000302; rev:1;)" from file .\rules\local.rules at line 27
+Info: detect: 1 rule files processed. 11 rules successfully loaded, 1 rules failed, 0 rules skipped
+Warning: threshold-config: Error opening file: "C:\Program Files\Suricata\\\threshold.config": No such file or directory
+Info: detect: 11 signatures processed. 7 are IP-only rules, 1 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+Info: runmodes: Using 1 live device(s).
+Info: win32-syscall: Obtaining offload state failed, device "VirtualBox Host-Only Ethernet Adapter" may not support offload. Error: 0x80041001
+Info: pcap: \Device\NPF_{8B60C5C7-B14D-4C4E-BB8E-3A199F9B7144}: running in 'auto' checksum mode. Detection of interface state will require 1000 packets
+Info: win32-syscall: Obtaining offload state failed, device "VirtualBox Host-Only Ethernet Adapter" may not support offload. Error: 0x80041001
+Info: pcap: \Device\NPF_{8B60C5C7-B14D-4C4E-BB8E-3A199F9B7144}: snaplen set to 1524
+Info: win32-syscall: Obtaining offload state failed, device "VirtualBox Host-Only Ethernet Adapter" may not support offload. Error: 0x80041001
+Warning: win32-syscall: Failure when trying to get feature via syscall for '\Device\NPF_{8B60C5C7-B14D-4C4E-BB8E-3A199F9B7144}': Generic failure (0x80041001)
+Warning: suricata: setrlimit unavailable.
+Notice: threads: Threads created -> RX: 1 W: 12 FM: 1 FR: 1   Engine started.
